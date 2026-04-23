@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=Outfit:wght@300;400;600;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --color-lupo-blue: #5DADE2;
+  --color-lupo-black: #000000;
+  --color-lupo-white: #FFFFFF;
+  --color-lupo-gray: #F8F9F9;
+}
+
+body {
+  @apply bg-lupo-white text-lupo-black font-sans antialiased;
+}
+
+/* Custom transitions */
+.link-transition {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+/* Logo-inspired curve motif */
+.header-curve {
+  border-bottom-left-radius: 40px;
+}
