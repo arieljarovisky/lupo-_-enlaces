@@ -20,27 +20,27 @@ export const BUSINESS_INFO = {
 export const LINKS: Link[] = [
   {
     title: "Tienda Online Oficial",
-    url: "https://www.multilupo.com.ar",
+    url: "https://lupo.ar",
     highlight: true
   },
   {
     title: "Línea Damas",
-    url: "https://multilupo.com.ar/damas/"
+    url: "https://lupo.ar/damas/"
   },
   {
     title: "Línea Compresión",
-    url: "https://multilupo.com.ar/damas/compresion/"
+    url: "https://lupo.ar/damas/compresion/"
   },
   {
     title: "Medias",
-    url: "https://multilupo.com.ar/medias/"
+    url: "https://lupo.ar/medias/"
   },
   {
     title: "Línea Hombres",
-    url: "https://multilupo.com.ar/hombre"
+    url: "https://lupo.ar/hombre"
   },
   {
     title: "Línea Deportiva Damas",
-    url: "https://multilupo.com.ar/damas/ropa-deportiva/"
+    url: "https://lupo.ar/damas/ropa-deportiva/"
   }
 ];
